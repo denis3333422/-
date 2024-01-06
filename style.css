@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Inter:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Open+Sans:ital,wght@0,700;1,400;1,500&family=Red+Hat+Text:ital,wght@0,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,900&family=Tinos:ital,wght@0,400;1,700&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{
+	display: flex;
+	font-family: "DM Sans";
+}
+.menu{
+	display: flex;
+	grid-column-gap: 40px;
+	padding-left: 1197px;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+.btn-menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.logo{
+	font-style: 600px;
+	font-size: 40px;
+	color: #fff;
+}
+.hedor{
+	background-color: #1c2120;
+	padding: 50px 0px 0px 43px;
+}
+.efeck{
+	position: absolute;
+	top: 133px;
+	left: 45px;
+}
+.internet{
+	background-color: #1c2120;
+	padding: 66px 0px 0px 70px;
+	display: flex;
+	font-family: "DM Sans";
+}
+.img-text{
+	font-size: 88px;
+	font-weight: 400;
+	line-height: 88px;
+	color: #fff;
+	padding-left: 60px;
+	padding-top: 294px;
+}
+.img-text a{
+	padding-left: 25px;
+	font-size: 80px;
+	font-weight: 700;
+}
+.img-text h2{
+	font-size: 75px;
+	font-weight: 400;
+}
+.social-networks-img{
+	display: flex;
+	grid-column-gap: 17px;
+}
+.social-networks{
+	padding-top: 90px;
+}
+.social-networks p{
+	font-size: 20px;
+	line-height: 0;
+}
+.Latest-episodes{
+	font-family: "DM Sans";
+	background-color: #1c2120;
+	padding-top: 93px;
+	padding-left: 70px;
+	display: flex;
+}
+.p{
+	font-size: 64px;
+	font-weight: 400;
+	color: #fff;
+}
+.btn{
+	margin-left: 1122px;
+	background-color: #118DA8;
+	background-repeat: 12px;
+	padding: 12px 20px 12px 20px;
+	height: 15px;
+	border-radius: 12px;
+}
+.btn-text{
+	text-decoration: none;
+	color: #fff;
+}
+.Latest-episodes-carta{
+	background-color: #1c2120;
+	font-family: "DM Sans";
+}
+.carta{
+	background-color: #000;
+	border-radius: 32px;
+	display: flex;
+	width: 1260px;
+	margin-top: 108px;
+	margin-left: 270px;
+}
+.img2{
+	padding: 40px;
+}
+.carta-text{
+	color: #fff;
+	padding-top: 48px;
+}
+.carta-text p{
+	background-color: #191919;
+	border-radius: 6px;
+	padding: 5px 19px 5px 19px;
+	width: 40px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.carta-text h2{
+	padding-top: 48px;
+	color: #118DA8;
+	font-size: 17px;
+	font-weight: 400;
+}
+.carta-text h1{
+	padding-top: 18px;
+	font-size: 64px;
+	line-height: 70px;
+	font-weight: 400;
+}
+.carta-text h3{
+	padding-top: 28px;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #FFFFFFB2;
+}
+.carta-text a{
+	background-color: #118DA8;
+	padding: 12px 20px 12px 20px;
+	border-radius: 20px;
+}
+.BATR{
+	padding-top: 18px;
+}
+.fon{
+	background-color: #1c2120;
+	font-family: "DM Sans";
+}
+.batton-text{
+	text-decoration: none;
+	color: #fff;
+}
+.Jacob-Paulaner{
+	padding-left: 87px;
+	padding-top: 260px;
+	display: flex;
+}
+.text-img{
+	background-color: #118DA8;
+	width: 102px;
+	border-radius: 990px;
+}
+.img-left{
+	padding: 30px 0px 30px 20px;
+}
+.text-img-left p{
+	padding-top: 20px;
+	color: #118DA8;
+	font-size: 28px;
+	font-weight: 400;
+}
+.text-img-left h1{
+	font-size: 75px;
+	font-weight: 400;
+	padding-top: 10px;
+	color: #fff;
+}
+.text-img-left h2{
+	font-size: 30px;
+	font-weight: 400;
+	padding-top: 28px;
+	line-height: 33px;
+	color: #FFFFFFB2;
+}
+.text-img-left h3{
+	color: #FFFFFFB2;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 33px;
+	padding-top: 28px;
+}
+.img-2{
+	padding-left: 94px;
+}
+.text-updates p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #118DA8;
+}
+.text-updates h1{
+	font-size: 72px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 79px;
+}
+.Subscribe-updates{
+	display: flex;
+	background-color: #000000;
+	border-radius: 32px;
+	padding: 60px;
+	width: 1320px;
+	margin-top: 200px;
+	margin-left: 190px;
+}
+.registration{
+	padding-left: 648px;
+}
+.name{
+	background-color: #191919;
+	padding: 26px 279px 27px 19px;
+	border-radius: 6px;
+}
+.name-btn{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 400;
+	color: #FFFFFFB2;
+}
+.email{
+	background-color: #191919;
+	padding: 26px 279px 27px 19px;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+.btn1{
+	margin-top: 29px;
+	background-color: #118da8;
+	padding: 10px 9px 10px 9px;
+	width: 60px;
+	border-radius: 6px;
+}
+.batton1{
+	text-decoration: none;
+	color: #FFFFFFB2;
+}
+.carta-text h4{
+	background-color: #191919;
+	padding: 5px 19px 5px 19px;
+	border-radius: 6px;
+	width: 100px;
+}
+.rays{
+	position: absolute;
+	padding-top: 260px;
+	left: 150px;
+}
+.responses{
+	padding-top: 200px;
+	padding-left: 120px;
+	position: relative;
+	grid-template-columns: repeat(3,2fr);
+	display: grid;
+	grid-row-gap: 30px;
+}
+.responses-text p{
+	padding-top: 21px;
+	font-size: 36px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 43px;
+}
+.responses-text h1{
+	font-size: 24px;
+	font-weight: 400;
+	color: #FFFFFFB2;
+	padding-top: 19px;
+}
+.carta-responses{
+	background-color: #000000;
+	padding: 53px;
+	border-radius: 32px;
+	width: 290px;
+}
+.finish{
+	padding-top: 200px;
+	padding-left: 120px;
+	display: flex;
+}
+.sot-seti{
+	padding-top: 20px;
+	grid-column-gap: 16px;
+	display: flex;
+}
+.finish-btn{
+	padding-left: 439px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+	padding-top: 10px;
+}
+.finish-btn-2{
+	grid-row-gap: 20px;
+	padding-left: 148px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+	display: grid;
+	padding-top: 30px;
+}
+.finish-btn p{
+	padding-top: 20px;
+}
+.finish-img{
+	padding-left: 100px;
+	padding-top: 20px;
+}
+.finish-img img{
+	padding-left: 17px;
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width:1784px ) {
+ 	.fon{
+ 		width:1784px;
+ 	}
+ 	.menu{
+ 		padding-left: 1000px;
+ 	}
+ 	.btn{
+ 		margin-left: 1000px;
+ 	}
+ }
+  @media screen and (max-width: 1045px ) {
+ 	.menu{
+ 		font-size: 30px;
+ 	}
+ 	.social-networks p{
+ 		font-size: 50px;
+ 	}
+ 	.img1{
+ 		width: 60px;
+ 		height: 30px;
+ 	}
+ 	.p{
+ 		font-size: 80px;
+ 	}
+ 	.btn{
+ 		margin-left: 800px;
+ 		padding: 24px 40px 24px 40px;
+ 	}
+ 	.btn-text{
+ 		font-size: 25px;
+ 	}
+ 	.carta-text p{
+ 		padding: 20px 60px 20px 40px;
+ 		font-size: 30px;
+ 	}
+ 	.carta-text h2{
+ 		font-size: 30px;
+ 	}
+ 	.carta-text h4{
+ 		width: 140px;
+ 		font-size: 20px;
+ 	}
+ 	.finish-btn{
+ 		font-size: 30px;
+ 	}
+ 	.finish-btn-2{
+ 		font-size: 30px;
+ 	}
+ }
+  @media screen and (max-width: 705px ) {
+  	.menu{
+  		font-size: 40px;
+  		padding-left: 670px;
+  	}
+  	.carta{
+  		width: 1600px;
+  		height: 700px;
+  		margin-left: 85px;
+  	}
+  	.img4{
+  		width: 520px;
+  	}
+  	.img5{
+  		width: 560px;
+  	}
+  	.img6{
+  		width: 560px;
+  	}
+  	.carta-text p{
+  		width: 100px;
+  		font-size: 50px;
+  	}
+  	.carta-text h2{
+  		font-size: 50px;
+  	}
+  	.carta-text h3{
+  		font-size: 40px;
+  	}
+  	.BATR{
+  		padding-top: 60px;
+  	}
+  	.natton-text{
+  		font-size: 90px;
+  	}
+  	.text-img-left p{
+  		font-size: 50px;
+  	}
+  	.text-img-left h1{
+  		font-size: 90px;
+  	}
+  	.text-img-left h2{
+  		font-size: 40px;
+  	}
+  	.text-img-left h3{
+  		font-style: 40px;
+  	}
+  	.text-updates p{
+  		font-size: 40px;
+  	}
+  }
+  @media screen and (max-width: 557px ) {
+  	.logo-1{
+  		width: 400px;
+  	}
+  	.menu{
+  		padding-left: 190px;
+  		font-size: 70px;
+  	}
+  	.img-img{
+  		width: 900px;
+  	}
+  	.efeck{
+  		padding-top: 50px;
+  	}
+  }
